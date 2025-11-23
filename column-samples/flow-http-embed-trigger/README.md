@@ -5,8 +5,7 @@ This sample demonstrates how to trigger a Power Automate flow instantly from a l
 
 It uses the `customRowAction` with `action: "embed"` to hit a Power Automate **HTTP Request (GET)** endpoint. The Flow returns an HTML payload that renders directly inside the formatting callout bubble, providing immediate visual feedback (e.g., "✅ Request Sent") while the Flow processes logic in the background.
 
-![demo](assets/demo.gif)
-<img src="assets/screenshot.png" width="400" style="display:none;" />
+![screenshot](assets/screenshot.gif)
 
 ## View requirements
 * This formatting can be applied to any column type (Text, Calculated, etc.).
@@ -15,7 +14,7 @@ It uses the `customRowAction` with `action: "embed"` to hit a Power Automate **H
 
 Solution|Author(s)
 --------|---------
-index.json | [Sam Yost](https://github.com/samyost)
+flow-http-embed-trigger.json  | [Sam Yost](https://github.com/samyost)
 
 ## Version history
 
