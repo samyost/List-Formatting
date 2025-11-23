@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "name": "flow-http-embed-trigger",
+  "source": "pnp",
+  "title": "Instant Flow Trigger via Embed Action",
+  "shortDescription": "Trigger a Power Automate flow instantly with visual feedback using the embed action.",
+  "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/flow-http-embed-trigger",
+  "creationDateTime": "2025-11-23",
+  "updateDateTime": "2025-11-23",
+  "products": [
+    "SharePoint",
+    "Microsoft Lists"
+  ],
+  "metadata": [
+    {
+      "key": "LIST-SAMPLE-TYPE",
+      "value": "Column"
+    },
+    {
+      "key": "FORMATTING-ACTIONS",
+      "value": "embed"
+    }
+  ],
+  "thumbnails": [
+    {
+      "type": "image",
+      "order": 100,
+      "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/flow-http-embed-trigger/assets/screenshot.gif",
+      "alt": "Animation of the embed action triggering a flow"
+    }
+  ],
+  "authors": [
+    {
+      "gitHubAccount": "YOUR_GITHUB_USERNAME",
+      "name": "YOUR NAME"
+    }
+  ],
+  "references": [
+    {
+      "name": "Advanced formatting concepts",
+      "url": "https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-advanced"
+    }
+  ]
+}
