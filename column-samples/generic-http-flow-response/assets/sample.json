@@ -1,10 +1,10 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
-  "name": "flow-http-embed-trigger",
+  "name": "generic-http-flow-response",
   "source": "pnp",
-  "title": "Instant Flow Trigger via Embed Action",
+  "title": "Instant Flow Trigger with HTML Response via Embed Action",
   "shortDescription": "Trigger a Power Automate flow instantly with visual feedback using the embed action.",
-  "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/flow-http-embed-trigger",
+  "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-http-flow-response",
   "creationDateTime": "2025-11-23",
   "updateDateTime": "2025-11-23",
   "products": [
@@ -25,14 +25,14 @@
     {
       "type": "image",
       "order": 100,
-      "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/flow-http-embed-trigger/assets/screenshot.gif",
+      "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-http-flow-response/assets/screenshot.gif",
       "alt": "Animation of the embed action triggering a flow"
     }
   ],
   "authors": [
     {
-      "gitHubAccount": "YOUR_GITHUB_USERNAME",
-      "name": "YOUR NAME"
+      "gitHubAccount": "samyost",
+      "name": "Sam Yost"
     }
   ],
   "references": [

@@ -1,9 +1,9 @@
-# Instant Flow Trigger via Embed Action
+# Instant Flow Trigger with HTML Response via Embed Action
 
 ## Summary
 This sample demonstrates how to trigger a Power Automate flow instantly from a list button without the standard "Run Flow" side-pane friction.
 
-It uses the `customRowAction` with `action: "embed"` to hit a Power Automate **HTTP Request (GET)** endpoint. The Flow returns an HTML payload that renders directly inside the formatting callout bubble, providing immediate visual feedback (e.g., "✅ Request Sent") while the Flow processes logic in the background.
+It uses the `customRowAction` with `action: "embed"` to hit a Power Automate **HTTP Request (GET)** endpoint. The Flow returns an HTML payload that renders directly inside the (embedded) formatting callout bubble.
 
 ![screenshot](assets/screenshot.gif)
 
@@ -14,7 +14,7 @@ It uses the `customRowAction` with `action: "embed"` to hit a Power Automate **H
 
 Solution|Author(s)
 --------|---------
-flow-http-embed-trigger.json  | [Sam Yost](https://github.com/samyost)
+generic-http-flow-response.json  | [Sam Yost](https://github.com/samyost)
 
 ## Version history
 
@@ -54,4 +54,4 @@ To fix this:
 2. Add the domain of your Flow URL to the list (e.g., `logic.azure.com` or `prod-18.westus.logic.azure.com`).
 3. Click **OK**.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/flow-http-embed-trigger" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-http-flow-response" />
